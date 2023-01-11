@@ -72,29 +72,7 @@ const productsManager = {
                 this.products.value = data
                 this.clearInputs()
             })
-        },
-
-        async registerProduct(){
-            await colRef.add({
-                name: this.productInput,
-                amount: this.amountInput
-            })
-            this.fetchData()
-        },
-
-        async deleteProduct(){
-            await this.findProduct().delete()
-            this.fetchData()
-        },
-
-        async updateProduct(){
-            await this.findProduct().update({
-                name: this.productInput,
-                amount: this.amountInput
-            })
-            this.fetchData()
         }
-
     }
 }
 
