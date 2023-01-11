@@ -7,7 +7,7 @@ const pageTemplate = `
         <input class="inputs" id="produto" v-model="productInput"> <br/>
 
         <label for="quantidade">Quantidade</label>
-        <input class="inputs" id="quantidade" type="number" v-model="amountInput"> <br/>
+        <input class="inputs" id="quantidade" min="0" type="number" v-model="amountInput"> <br/>
 
         <button class="btn btn-success" @click="registerProduct">Salvar</button>
         <button class="btn btn-secondary" @click="updateProduct">Atualizar</button>
