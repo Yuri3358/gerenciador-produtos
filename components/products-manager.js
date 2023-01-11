@@ -80,7 +80,12 @@ const productsManager = {
                 amount: this.amountInput
             })
             this.fetchData()
-        }
+        },
+
+        async deleteProduct(){
+            await this.findProduct().delete()
+            this.fetchData()
+        },
     }
 }
 
