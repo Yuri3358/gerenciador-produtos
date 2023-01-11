@@ -32,3 +32,10 @@ h1 {
     border-color: black;
     border-style: groove;
 }
+
+.btn {
+    font-size: 20px;
+    margin-left: 4px;
+    margin-top: 4px;
+    border-color: black;
+}
