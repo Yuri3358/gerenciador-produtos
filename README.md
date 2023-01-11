@@ -14,7 +14,7 @@
 <h3><strong>Registrando produtos</strong></h3>
 <p>Para registrar um produto, simplesmente coloque o nome e a quantidade nos campos adequados ("produto" e "quantidade", respectivamente) e clique em "Salvar"</p>
 
-<img src="https://i.imgur.com/aGz3Uc2.gif" width="400px">
+![creating](https://i.imgur.com/u7m57apm.gif)
 
 <br/>
 
@@ -31,7 +31,7 @@
 <p>Para excluir um produto da lista, você precisará apenas passar o nome dele</p>
 <p>A função deleteProduct() só precisa do nome do produto, então não precisa passar a quantidade</p>
 
-<img src=""
+![deleting](https://i.imgur.com/u7m57apm.gif)
 <hr>
 
 <h2>Tecnologias</h2>
