@@ -9,22 +9,17 @@
 <hr>
 
 <h2>Demonstrações de uso</h2>
-<br/>
 
 <h3><strong>Registrando produtos</strong></h3>
 <p>Para registrar um produto, simplesmente coloque o nome e a quantidade nos campos adequados ("produto" e "quantidade", respectivamente) e clique em "Salvar"</p>
 
 <img src="./assets/readme-assets/create.gif" width="400px">
 
-<br/>
-
 <h3>Atualizando produtos</h3>
 <p>O procedimento é similar ao de registrar mas clicando em "Atualizar"</p>
 <p>Passe o nome do produto que você quer atualizar e a nova quantidade disponível</p>
 
 <img src="./assets/readme-assets/update.gif" width="400px">
-
-<br/>
 
 <h3>Excluindo produtos</h3>
 
@@ -54,7 +49,7 @@
 
 <hr>
 
-<h2>Nota do autor</h2>
+<h2>Nota do Desenvolvedor</h2>
 <p>É possível que a página ou o banco de dados fique fora do ar, isso pode acontecer por dois motivos:</p>
 
 <li>Inatividade: como eu não costumo inspecionar projetos antigos, e sim focar em novos, pode acontecer do Netlify ou do Firestore desabilitar suas funções. Neste caso use a aba Issues para reportar, consertarei quando possível.</li>
