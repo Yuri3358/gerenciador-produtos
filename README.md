@@ -22,7 +22,7 @@
 <p>O procedimento é similar ao de registrar mas clicando em "Atualizar"</p>
 <p>Passe o nome do produto que você quer atualizar e a nova quantidade disponível</p>
 
-<img src="https://i.imgur.com/VdGSZo5.gif" width="400px"> 
+![updating](https://i.imgur.com/VdGSZo5m.gif)
 
 <br/>
 
@@ -31,6 +31,7 @@
 <p>Para excluir um produto da lista, você precisará apenas passar o nome dele</p>
 <p>A função deleteProduct() só precisa do nome do produto, então não precisa passar a quantidade</p>
 
+<img src=""
 <hr>
 
 <h2>Tecnologias</h2>
