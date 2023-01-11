@@ -1,6 +1,6 @@
-const pageTemplate = 
-`<h1>Gerenciador de Produtos</h1>
+const pageTemplate = `
 <div id="content">
+    <h1>Gerenciador de Produtos</h1>
     <div id="data-entries">
         <label for="produto">Produto</label>
         <input class="inputs" id="produto" v-model="productInput"> <br/>
@@ -17,7 +17,7 @@ const pageTemplate =
     <div id="data-output">
         <table class="table table-primary table-striped table-hover table-condensed">
             <thead>
-                <tr>
+                <tr class="table-dark">
                     <th>Identidade</th>
                     <th>Produto</th>
                     <th>Quantidade</th>
