@@ -1,6 +1,10 @@
 body {
     background-color: rgb(54, 53, 53);
 }
-h1 {
+
+#content {
     text-align: center;
+    font-size: 25px;
+    background-color: rgb(60, 60, 60);
+    color: white
 }
