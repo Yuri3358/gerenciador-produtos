@@ -10,3 +10,12 @@ body {
     border-style: groove;
     border-color: black;
 }
+
+#data-output {
+    text-align: center;
+    margin: auto;
+    margin-top: 20px;
+    width: 800px;
+    height: 270px;
+    overflow: auto;
+}
