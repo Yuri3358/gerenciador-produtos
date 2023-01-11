@@ -22,7 +22,7 @@ h1 {
 #data-output {
     text-align: center;
     margin: auto;
-    margin-top: 20px;
+    margin-top: 12px;
     width: 800px;
     height: 270px;
     overflow: auto;
@@ -38,4 +38,13 @@ h1 {
     margin-left: 4px;
     margin-top: 4px;
     border-color: black;
+}
+
+.inputs {
+    font-size: 22px;
+    background-color: rgb(95, 95, 95);
+    color: white;
+    border-color: black;
+    border-radius: 4px;
+    text-align: center;
 }
