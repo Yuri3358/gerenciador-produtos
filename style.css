@@ -2,13 +2,21 @@ body {
     background-color: rgb(54, 53, 53);
 }
 
+h1 {
+    font-size: 40px;
+    color: rgb(255, 251, 251)
+}
+
 #content {
+    margin: auto;
     text-align: center;
     font-size: 25px;
     background-color: rgb(97, 96, 96);
     color: white;
     border-style: groove;
     border-color: black;
+    border-radius: 12px;
+    width: 30cm;
 }
 
 #data-output {
@@ -18,4 +26,9 @@ body {
     width: 800px;
     height: 270px;
     overflow: auto;
+}
+
+.table {
+    border-color: black;
+    border-style: groove;
 }
