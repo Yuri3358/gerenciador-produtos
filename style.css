@@ -5,6 +5,8 @@ body {
 #content {
     text-align: center;
     font-size: 25px;
-    background-color: rgb(60, 60, 60);
-    color: white
+    background-color: rgb(97, 96, 96);
+    color: white;
+    border-style: groove;
+    border-color: black;
 }
