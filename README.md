@@ -56,7 +56,7 @@
 <hr>
 
 <h2>Nota do autor</h2>
-<p>É provável que a página ou o banco de dados fique fora do ar, isso pode acontecer por dois motivos:</p>
+<p>É possível que a página ou o banco de dados fique fora do ar, isso pode acontecer por dois motivos:</p>
 
 <li>Inatividade: como eu não costumo inspecionar projetos antigos, e sim focar em novos, pode acontecer do Netlify ou do Firestore desabilitar suas funções. Neste caso use a aba Issues para reportar, consertarei quando possível.</li>
 
