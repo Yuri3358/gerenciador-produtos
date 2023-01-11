@@ -86,6 +86,15 @@ const productsManager = {
             await this.findProduct().delete()
             this.fetchData()
         },
+
+        async updateProduct(){
+            await this.findProduct().update({
+                name: this.productInput,
+                amount: this.amountInput
+            })
+            this.fetchData()
+        }
+
     }
 }
 
