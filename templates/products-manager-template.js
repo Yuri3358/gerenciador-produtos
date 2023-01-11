@@ -1,6 +1,7 @@
 const pageTemplate = `
 <div id="content">
     <h1>Gerenciador de Produtos</h1>
+    
     <div id="data-entries">
         <label for="produto">Produto</label>
         <input class="inputs" id="produto" v-model="productInput"> <br/>
