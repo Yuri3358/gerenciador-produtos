@@ -4,7 +4,7 @@
 
 <p>Fiz no intuito de colocar em prática meus conhecimentos recém adquiridos em Vue.js</p>
 
-<p>A implementação de um banco de dados que possa ser utilizada em front-end (firestore) foi fruto de alguns dias de teste, pois não estava sendo viável continuar empregando MongoDB com o conhecimento limitado que possuo atualmente.</p>
+<p>A implementação de um banco de dados que possa ser utilizado no front-end (firestore) foi fruto de alguns dias de teste, pois não estava sendo viável continuar empregando MongoDB com o conhecimento limitado que possuo atualmente.</p>
 
 <hr>
 
