@@ -19,7 +19,7 @@ const pageTemplate = `
         <table class="table table-primary table-striped table-hover table-condensed">
             <thead>
                 <tr class="table-dark">
-                    <th>Identidade</th>
+                    <th>Código</th>
                     <th>Produto</th>
                     <th>Quantidade</th>
                 </tr>
