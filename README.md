@@ -15,16 +15,23 @@
 
 <img src="./assets/readme-assets/create.gif" width="400px">
 
+
+
 <h3>Atualizando produtos</h3>
-<p>O procedimento é similar ao de registrar mas clicando em "Atualizar"</p>
-<p>Passe o nome do produto que você quer atualizar e a nova quantidade disponível</p>
+<p>O procedimento é similar ao de registrar mas clicando em "Atualizar".</p>
+<p>Passe o nome do produto (digitando ou  que você quer atualizar e a nova quantidade disponível.</p>
+
 
 <img src="./assets/readme-assets/update.gif" width="400px">
 
+<p>Após a versão 1.1.0, também é possível selecionar o nome do produto na tabela, não precisando passar o nome manualmente.
+
+<img src="./assets/readme-assets/table_select.gif" width="400px">
+
 <h3>Excluindo produtos</h3>
 
-<p>Para excluir um produto da lista, você precisará apenas passar o nome dele</p>
-<p>A função deleteProduct() só precisa do nome do produto, então não precisa passar a quantidade</p>
+<p>Para excluir um produto da lista, você precisará apenas passar o nome dele (manualmente ou clicando na tabela).</p>
+<p>A função deleteProduct() só precisa do nome do produto, então não precisa passar a quantidade.</p>
 
 <img src="./assets/readme-assets/delete.gif" width="400px">
 
