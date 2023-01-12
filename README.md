@@ -24,7 +24,7 @@
 
 <img src="./assets/readme-assets/update.gif" width="400px">
 
-<p>Após a versão 1.1.0, também é possível selecionar o nome do produto na tabela, não precisando passar o nome manualmente.
+<p>Após a versão 1.1.0, também é possível selecionar o nome do produto na tabela, não precisando passar o nome manualmente.</p>
 
 <img src="./assets/readme-assets/table_select.gif" width="400px">
 
