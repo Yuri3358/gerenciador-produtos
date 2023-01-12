@@ -1,5 +1,5 @@
 const pageTemplate = `
-<div id="content">
+<div id="content" @keyup.enter="registerProduct">
     <h1>Gerenciador de Produtos</h1>
     
     <div id="data-entries">
