@@ -20,10 +20,14 @@ const productsManager = {
         },
 
         findProduct() {
-            let docRef;
-            const search = this.products.value.filter(product => this.productInput == product.name)
-            search.map(data => docRef = colRef.doc(data.productId))
-            return docRef
+            if (this.productInput == "") {
+                alert("Preencha os campos corretamente!")
+            } else {
+                let docRef;
+                const search = this.products.value.filter(product => this.productInput == product.name)
+                search.map(data => docRef = colRef.doc(data.productId))
+                return docRef
+            }
         },
 
         fetchData() {
@@ -40,11 +44,15 @@ const productsManager = {
         },
 
         async registerProduct(){
-            await colRef.add({
-                name: this.productInput,
-                amount: this.amountInput
-            })
-            this.fetchData()
+            if (this.productInput == "" || this.amountInput == "") {
+                alert("Produto vazio!")
+            } else {
+                await colRef.add({
+                    name: this.productInput,
+                    amount: this.amountInput
+                })
+                this.fetchData()
+            }
         },
 
         async deleteProduct(){
@@ -53,11 +61,15 @@ const productsManager = {
         },
 
         async updateProduct(){
-            await this.findProduct().update({
-                name: this.productInput,
-                amount: this.amountInput
-            })
-            this.fetchData()
+            if (this.amountInput == "") {
+                alert("Adicione a nova quantidade!")
+            } else {
+                await this.findProduct().update({
+                    name: this.productInput,
+                    amount: this.amountInput
+                })
+                this.fetchData()
+            }
         }
 
     }
