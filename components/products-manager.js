@@ -15,8 +15,7 @@ const productsManager = {
     
     methods: {
         clearInputs() {
-            this.productInput = ""
-            this.amountInput = ""
+            this.productInput = this.amountInput = ""
         },
 
         findProduct() {
