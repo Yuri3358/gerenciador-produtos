@@ -24,8 +24,12 @@ const productsManager = {
                 alert("Preencha os campos corretamente!")
             } else {
                 let docRef;
-                const search = this.products.value.filter(product => this.productInput == product.name)
-                search.map(data => docRef = colRef.doc(data.productId))
+                const search = this.products.value.find(product => product.name == this.productInput)
+
+                if (search) {
+                    docRef = colRef.doc(search.productId)
+                }
+
                 return docRef
             }
         },
