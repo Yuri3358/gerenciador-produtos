@@ -17,6 +17,7 @@ const productsManager = {
     methods: {
         clearInputs() {
             this.productInput = this.amountInput = ""
+            this.$refs.product.focus()
         },
 
         findProduct() {
@@ -44,7 +45,7 @@ const productsManager = {
                 })
 
                 data.length != 0 ? this.showTable = true : this.showTable = false
-                
+
                 this.products.value = data
                 this.clearInputs()
             })

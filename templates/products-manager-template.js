@@ -4,7 +4,7 @@ const pageTemplate = `
     
     <div id="data-entries">
         <label for="produto">Produto</label>
-        <input class="inputs" id="produto" v-model="productInput"> <br/>
+        <input ref="product" class="inputs" id="produto" v-model="productInput"> <br/>
 
         <label for="quantidade">Quantidade</label>
         <input class="inputs" id="quantidade" min="0" type="number" v-model="amountInput"> <br/>
