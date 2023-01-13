@@ -5,7 +5,8 @@ const productsManager = {
         return {
             products: Vue.ref([]),
             productInput: "",
-            amountInput: ""
+            amountInput: "",
+            showTable: false
         }
     },
 
@@ -28,7 +29,7 @@ const productsManager = {
                 if (search) {
                     docRef = colRef.doc(search.productId)
                 }
-
+                
                 return docRef
             }
         },
@@ -41,6 +42,9 @@ const productsManager = {
                     productInfo.productId = doc.id
                     data.push(productInfo)
                 })
+
+                data.length != 0 ? this.showTable = true : this.showTable = false
+                
                 this.products.value = data
                 this.clearInputs()
             })
