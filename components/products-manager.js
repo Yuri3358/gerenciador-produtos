@@ -6,6 +6,7 @@ const productsManager = {
             products: Vue.ref([]),
             productInput: "",
             amountInput: "",
+            productsAmount: 0,
             showTable: false
         }
     },
@@ -42,11 +43,13 @@ const productsManager = {
                     const productInfo = doc.data()
                     productInfo.productId = doc.id
                     data.push(productInfo)
+                    data.sort((a, b) => a.name.localeCompare(b.name))
                 })
 
                 data.length != 0 ? this.showTable = true : this.showTable = false
 
                 this.products.value = data
+                this.productsAmount = data.length
                 this.clearInputs()
             })
         },

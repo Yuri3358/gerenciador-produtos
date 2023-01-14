@@ -1,9 +1,9 @@
 const pageTemplate = `
-<div id="content" @keyup.enter="registerProduct">
-    <h1>Gerenciador de Produtos</h1>
-    
-    <div id="data-entries">
-        <label for="produto">Produto</label>
+<div id="content" @keyup.enter="registerProduct" @keyup.esc="deleteProduct">
+<header>Gerenciador de Produtos </header>
+
+<div id="data-entries">
+        <label for="produto">Nome do Produto</label>
         <input ref="product" class="inputs" id="produto" v-model="productInput"> <br/>
 
         <label for="quantidade">Quantidade</label>
@@ -16,12 +16,12 @@ const pageTemplate = `
     </div>
 
     <div id="data-output">
-        <table v-show="showTable" class="table table-secondary table-striped table-hover table-condensed">
-            <thead>
-                <tr class="table-dark">
-                    <th>Código</th>
-                    <th>Produto</th>
-                    <th>Quantidade</th>
+        <table v-show="showTable" class="table table-hover table-condensed">
+            <thead class="table-dark">
+                <tr>
+                    <th>Códigos</th>
+                    <th>Produtos ({{ this.productsAmount }})</th>
+                    <th>Quantidades</th>
                 </tr>
             </thead>
 
