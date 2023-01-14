@@ -16,7 +16,7 @@ const pageTemplate = `
     </div>
 
     <div id="data-output">
-        <table v-show="showTable" class="table table-hover table-condensed">
+        <table v-show="showTable" class="table table-condensed">
             <thead class="table-dark">
                 <tr>
                     <th>Códigos</th>
