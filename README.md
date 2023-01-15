@@ -45,7 +45,7 @@
 <hr> 
 <h2>Acessando a aplicação</h2>
 <p>Fiz questão de hospedar a página na Netlify, então você não precisa clonar o repositório</p>
-<a target="_blank" href="https://gerenciadordeprodutos.netlify.app/">Teste aqui a aplicação!</a>
+<a target="_blank" href="https://gerenciadorprodutos.netlify.app/">Teste aqui a aplicação!</a>
 
 <hr>
 
