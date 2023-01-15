@@ -1,5 +1,5 @@
 body {
-    background: linear-gradient(90deg, rgb(36, 112, 112), rgb(76, 76, 141));
+    background: linear-gradient(90deg, #247070, rgb(76, 76, 141));
 }
 
 header {
@@ -9,7 +9,6 @@ header {
     margin-bottom: 20px;
     background-color: rgb(6, 41, 169);
 }
-
 
 #data-entries {
     margin: auto;
@@ -60,4 +59,20 @@ tr {
     text-align: center;
     margin: auto;
     display: flex;
+}
+
+@media (max-width: 600px){
+    header {
+        border-radius: 10px;
+        width: 11cm;
+    }
+    body {
+        background: #247070
+    }
+    #data-output {
+        font-size: 13px;
+        width: 380px;
+        height: 170px;
+        overflow: auto
+    }
 }
