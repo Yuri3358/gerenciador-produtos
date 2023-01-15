@@ -3,18 +3,18 @@ body {
 }
 
 header {
+    background-color: rgb(6, 41, 169);
     font-size: 40px;
     color: rgb(255, 251, 251);
     text-align: center;
     margin-bottom: 20px;
-    background-color: rgb(6, 41, 169);
 }
 
 #data-entries {
+    background-color: rgb(85, 74, 152);
     margin: auto;
     text-align: center;
     font-size: 25px;
-    background-color: rgb(85, 74, 152);
     color: white;
     border-style: groove;
     border-color: black;
@@ -25,10 +25,10 @@ header {
 
 
 #data-output {
-    font-size: 22px;
-    text-align: center;
     margin: auto;
     margin-top: 1cm;
+    font-size: 22px;
+    text-align: center;
     width: 700px;
     height: 300px;
     overflow: auto;
@@ -51,12 +51,12 @@ tr {
 }
 
 .inputs {
-    font-size: 22px;
     background-color: rgba(76, 79, 165, 0.512);
+    text-align: center;
+    font-size: 22px;
     color: white;
     border-color: black;
     border-radius: 4px;
-    text-align: center;
     margin: auto;
     display: flex;
 }
@@ -66,9 +66,11 @@ tr {
         border-radius: 10px;
         width: 11cm;
     }
+
     body {
         background: #247070
     }
+
     #data-output {
         font-size: 13px;
         width: 380px;
