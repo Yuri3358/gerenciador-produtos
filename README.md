@@ -13,20 +13,20 @@
 <h3><strong>Registrando produtos</strong></h3>
 <p>Para registrar um produto, simplesmente coloque o nome e a quantidade nos campos adequados ("produto" e "quantidade", respectivamente) e clique em "Salvar"</p>
 
-<img src="./assets/readme-assets/create.gif" width="240px" height="240px">
+<img src="./assets/readme-assets/create.gif" width="380px" height="300px">
 
 <h3>Atualizando produtos</h3>
 <p>O procedimento é similar ao de registrar mas clicando em "Atualizar".</p>
 <p>Passe o nome do produto (digitando ou  que você quer atualizar e a nova quantidade disponível.</p>
 
-<img src="./assets/readme-assets/update.gif" width="240px" height="240px">
+<img src="./assets/readme-assets/update.gif" width="380px" height="300px">
 
 <h3>Excluindo produtos</h3>
 
 <p>Para excluir um produto da lista, você precisará apenas passar o nome dele (manualmente ou clicando na tabela).</p>
 <p>A função deleteProduct() só precisa do nome do produto, então não precisa passar a quantidade.</p>
 
-<img src="./assets/readme-assets/delete.gif" width="240px" height="240px">
+<img src="./assets/readme-assets/delete.gif" width="380px" height="300px">
 
 <hr>
 
