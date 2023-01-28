@@ -26,9 +26,9 @@ const pageTemplate = `
             </thead>
 
             <tbody>
-                <tr v-for="product in this.products.value">
+                <tr @click="this.productInput = product.name" v-for="product in this.products.value">
                     <td>{{ product.productId }}</td>
-                    <td @click="this.productInput = product.name">{{ product.name }}</td>
+                    <td>{{ product.name }}</td>
                     <td>{{ product.amount }}</td>
                 </tr>
             </tbody>
